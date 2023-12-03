@@ -1,9 +1,7 @@
 node {
     def app
     
-    env.IMAGE = 'annemariegainsom
-/
-blue-green'
+    env.IMAGE = 'annemariegainsom/blue-green'
 
     stage('Clone repository') {
              git branch: 'main', url: 'hhttps://github.com/Amgbillion/rollout-manifests.git'  
