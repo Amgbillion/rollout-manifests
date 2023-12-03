@@ -4,7 +4,7 @@ node {
     env.IMAGE = 'annemariegainsom/blue-green'
 
     stage('Clone repository') {
-             git branch: 'main', url: 'hhttps://github.com/Amgbillion/rollout-manifests.git'  
+             git branch: 'main', url: 'https://github.com/Amgbillion/rollout-manifests.git'  
     }
 
     stage('Update GIT') {
